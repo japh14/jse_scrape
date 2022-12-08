@@ -1,0 +1,42 @@
+{
+  "type": "object",
+  "properties": {
+    "company": {
+      "type": "string"
+    },
+    "trade_price": {
+      "type": "object",
+      "properties": {
+        "Last Traded Price": {
+          "type": "string"
+        },
+        "Close Price": {
+          "type": "string"
+        },
+        "Change (%)": {
+          "type": "string"
+        },
+        "Change ($)": {
+          "type": "string"
+        }
+      }
+    },
+    "open_price": {
+      "type": "object",
+      "properties": {
+        "Ask": {
+          "type": "string"
+        },
+        "Bid": {
+          "type": "string"
+        },
+        "Open": {
+          "type": "string"
+        },
+        "Volume Traded (units)": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
